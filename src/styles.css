@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227, 217, 217);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button :hover{
+    color: red;
+}
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.product {
+    width: calc(20% - 15px); 
+    margin: 10px; 
+    padding: 5px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.product h3 {
+    margin-top: 5px; 
+    font-size: 16px; 
+}
+
+.product p {
+    margin: 3px 0; 
+    font-size: 12px; 
+}
+
+.badge {
+    background-color: #f44336;
+    color: white;
+    padding: 3px 6px; 
+    border-radius: 3px; 
+    font-size: 10px; 
+}
+
+
+
+
+/* Search container */
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Search input */
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px; 
+    margin-right: 10px;
+}
+
+/* Search button */
+.search-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style the button on hover */
+.search-container button:hover {
+    background-color: #0056b3;
+}
+
+.cart-button {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center; /* Add this to evenly space the buttons */
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .cart-button {
+    margin-left: auto; /* Pushes the cart button to the right */
+  }
+  
